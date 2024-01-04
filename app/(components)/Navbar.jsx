@@ -60,7 +60,7 @@ function Navbar({ cartVal, cartItems }) {
                   <span className="text-info">Subtotal: ${cartVal}</span>
                   <div className="card-actions">
                     <button className="btn btn-primary btn-block">
-                      View cart
+                      View cart(Not made)
                     </button>
                   </div>
                 </div>{" "}

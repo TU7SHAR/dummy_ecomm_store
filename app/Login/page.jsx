@@ -1,9 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import axios from "axios";
 
-function page() {
+function Page() {
   const router = useRouter();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -58,7 +57,7 @@ function page() {
               <p className="py-6">
                 For Full Access Login Now! This is a Dummy Site made Using
                 dummyApi as per task by interviewer Default username =
-                "kminchelle", password = "0lelplR"
+                &quot;kminchelle&quot;, password = &quot;0lelplR&quot;
               </p>
             </div>
             <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
@@ -108,4 +107,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
